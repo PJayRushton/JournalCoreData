@@ -13,6 +13,10 @@
 		A136838F1DFCA2ED00015F06 /* JournalCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A136838D1DFCA2ED00015F06 /* JournalCoreData.xcdatamodeld */; };
 		A13683911DFCA2ED00015F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13683901DFCA2ED00015F06 /* Assets.xcassets */; };
 		A13683941DFCA2ED00015F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13683921DFCA2ED00015F06 /* LaunchScreen.storyboard */; };
+		A136839C1DFCA3E400015F06 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136839B1DFCA3E400015F06 /* Stack.swift */; };
+		A136839E1DFCBDF700015F06 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136839D1DFCBDF700015F06 /* Journal.swift */; };
+		A13683A01DFCBEB000015F06 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136839F1DFCBEB000015F06 /* CoreDataHelper.swift */; };
+		A13683A21DFCC07600015F06 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13683A11DFCC07600015F06 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A13683901DFCA2ED00015F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13683931DFCA2ED00015F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13683951DFCA2ED00015F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136839B1DFCA3E400015F06 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		A136839D1DFCBDF700015F06 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		A136839F1DFCBEB000015F06 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		A13683A11DFCC07600015F06 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			children = (
 				A13683861DFCA2ED00015F06 /* AppDelegate.swift */,
 				A13683881DFCA2ED00015F06 /* ViewController.swift */,
+				A136839D1DFCBDF700015F06 /* Journal.swift */,
+				A13683A11DFCC07600015F06 /* Entry.swift */,
+				A136839B1DFCA3E400015F06 /* Stack.swift */,
+				A136839F1DFCBEB000015F06 /* CoreDataHelper.swift */,
 				A136838A1DFCA2ED00015F06 /* Main.storyboard */,
 				A13683901DFCA2ED00015F06 /* Assets.xcassets */,
 				A13683921DFCA2ED00015F06 /* LaunchScreen.storyboard */,
@@ -140,6 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13683A21DFCC07600015F06 /* Entry.swift in Sources */,
+				A13683A01DFCBEB000015F06 /* CoreDataHelper.swift in Sources */,
+				A136839C1DFCA3E400015F06 /* Stack.swift in Sources */,
+				A136839E1DFCBDF700015F06 /* Journal.swift in Sources */,
 				A136838F1DFCA2ED00015F06 /* JournalCoreData.xcdatamodeld in Sources */,
 				A13683891DFCA2ED00015F06 /* ViewController.swift in Sources */,
 				A13683871DFCA2ED00015F06 /* AppDelegate.swift in Sources */,
